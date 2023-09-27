@@ -36,10 +36,17 @@ button.sign {
     right: 110px;
 }
 
+.sti {
+    position: sticky;
+    top: 0;
+    box-shadow: 2px 2px 2px rgb(203, 199, 199);
+}
+
 div.nav {
     /* height: 100px; */
     /* border: 2px solid black; */
     display: flex;
+    background-color: white;
 }
 
 .nav img {
@@ -97,13 +104,13 @@ div.nav {
     height: 510px;
 }
 
-h1.bannerheading{
+h1.bannerheading {
     padding: 45px 80px;
     font-size: 50px;
     width: 690px;
 }
 
-p.sometext{
+p.sometext {
     padding: 10px 80px;
     width: 800px;
     font-size: 19px;
@@ -113,7 +120,7 @@ p.sometext{
     letter-spacing: 0.03cm;
 }
 
-button.home{
+button.home {
     background-color: orangered;
     font-size: 16px;
     font-family: "Source Sans Pro";
@@ -125,38 +132,155 @@ button.home{
     height: 50px;
 }
 
-.youtube{
+.youtube {
     width: auto;
     height: 300px;
     background-color: black;
     color: aliceblue;
 }
-.youtube img{
-    float:right;
+
+.youtube img {
+    float: right;
     width: 300px;
     height: 200px;
     margin-right: 90px;
 }
+
 .youtu {
     padding-top: 55px;
     padding-left: 90px;
     font-family: "Source Sans Pro";
 }
-.youtu p{
+
+.youtu p {
     font-size: 17px;
     margin-bottom: 20px;
     padding-bottom: 10px;
 }
-.youtu h4{
+
+.youtu h4 {
     font-size: 30px;
     margin-bottom: 20px;
     padding-bottom: 10px;
     width: 600px;
     line-height: 1.5;
 }
+
 button.yout {
     padding: 10px;
     background-color: orangered;
     border: 0;
     border-radius: 5px;
+}
+
+.secpage {
+    width: auto;
+    height: 830px;
+}
+
+div.top {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.top h1 {
+    font-size: 42px;
+}
+
+.top p {
+    margin: 10px;
+    color: rgb(125, 122, 122);
+}
+
+.flex {
+    display: flex;
+}
+
+.flex1 ul {
+    margin: 30px;
+    list-style-type: none;
+}
+
+.flex1 li {
+    margin-bottom: 15px;
+    margin-left: 40px;
+    padding: 19px 16px;
+    font-size: 20px;
+}
+
+.flex1 li:hover {
+    background-color: rgb(244, 238, 238);
+    border-radius: 10px;
+}
+
+li.active {
+    background-color: rgb(244, 238, 238);
+    border-radius: 10px;
+}
+
+.flex2 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.flex2 h1 {
+    font-size: 30px;
+    margin-bottom: 17px;
+    color: #52565a;
+    height: 20px;
+}
+
+.flex2 h1 span {
+    color: rgb(245, 86, 86);
+}
+
+.flex2 p {
+    margin-top: 30px;
+    font-size: 1.15rem;
+    color: #6c757d;
+}
+
+.flex2 p span {
+    color: rgb(245, 86, 86);
+}
+
+.javascriptuse {
+    width: auto;
+    height: 650px;
+    background-color: #f8fcfc;
+}
+
+.javahead {
+    width: auto;
+    height: 200px;
+    text-align: center;
+    padding-top: 65px;
+}
+
+.javah1 span {
+    color: rgb(13, 105, 142);
+}
+
+.javah1 {
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    color: #1c1c1c;
+}
+
+.javahead p {
+    margin: 12px;
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.2;
+    color: #6c757d;
+}
+
+.slide img{
+    width: 60%;
+    height: 50%;
+    margin-top: 50px;
+    position: absolute;
+    left: 22%;
 }
