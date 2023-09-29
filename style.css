@@ -404,12 +404,14 @@ ul.tinylogo {
 .googleplay {
     float: right;
 }
-.howtostart{
+
+.howtostart {
     width: auto;
     height: 700px;
     background-color: #f6fafab0;
 }
-.howtostart img{
+
+.howtostart img {
     float: right;
     height: 475px;
     width: auto;
@@ -420,42 +422,51 @@ ul.tinylogo {
     border: 0;
     border-radius: 20px;
 }
-.htswrittenpart{
+
+.htswrittenpart {
     width: 50%;
     height: auto;
     padding-left: 22px;
 }
-.htswrittenpart h2{
+
+.htswrittenpart h2 {
     font-size: 40px;
     text-align: center;
     padding-top: 54px;
 }
-.htswrittenpart h2 span{
+
+.htswrittenpart h2 span {
     color: rgb(12, 12, 143);
 }
-p.htswp{
+
+p.htswp {
     font-size: 14.8px;
     text-align: center;
     padding-top: 10px;
     padding-left: 40px;
     color: rgb(102, 102, 100);
 }
-.htswrittenpart hr{
+
+.htswrittenpart hr {
     margin-left: 40px;
 }
-.htswrittenpart ol{
+
+.htswrittenpart ol {
     margin-left: 70px;
     color: rgb(0, 0, 122);
     font-size: 17px;
 }
-.htswrittenpart li{
+
+.htswrittenpart li {
     padding: 13px;
 }
-ol p{
+
+ol p {
     text-align: start;
     color: rgb(102, 102, 100);
 }
-.htswrittenpart button{
+
+.htswrittenpart button {
     padding: 15px 60px;
     margin-top: 50px;
     margin-left: 200px;
@@ -464,12 +475,111 @@ ol p{
     background-color: rgb(38, 38, 152);
     border: 0;
 }
-.pricing{
+
+.pricing {
     width: auto;
     height: 468px;
     background-color: #eaeaea;
 }
-.priceh h1{
-    font-size: 38px;
+
+div.priceh {
+    padding: 50px;
+}
+
+div.priceh h1 {
+    font-size: 42px;
     text-align: center;
+    color: #17273a;
+    font-weight: 600;
+    margin: 14px 0px 0px;
+}
+
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 25px;
+}
+
+.flexrow>div {
+    width: 33.33333%;
+    margin: 5px;
+    padding: 0;
+    text-align: center;
+}
+
+.flexrow>div p {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: navy;
+}
+
+.flexrow>div span {
+    font-size: 18px;
+    color: #909090;
+}
+
+.pricebutton {
+    text-align: center;
+    margin: 70px;
+}
+
+.pricebutton button {
+    padding: 12px 40px;
+    font-size: 15px;
+    color: #01408A;
+    border: 2px solid #01408A;
+    border-radius: 12px;
+}
+
+.pricebutton button:hover {
+    cursor: pointer;
+    background-color: #01408A;
+    color: aliceblue;
+}
+
+.feature {
+    width: auto;
+    height: 600px;
+    padding: 50px;
+}
+
+div.feaimg img {
+    float: right;
+    height: 560px;
+    margin-top: 0px;
+}
+
+.feadis h4 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #01408A;
+}
+
+.feadis h1 {
+    font-size: 3rem;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.feadis h1 span {
+    color: #01408A;
+}
+
+.feadis p {
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #909090;
+    margin-bottom: 1.5rem;
+}
+
+.feadis button {
+    margin-top: 28px;
+    padding: 18px 70px;
+    font-size: 20px;
+    border: 0;
+    background-color: #01408A;
+    color: aliceblue;
 }
