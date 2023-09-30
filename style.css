@@ -785,3 +785,111 @@ div.third .free{
     margin-left: 140px;
     cursor: pointer;
 }
+.newsp {
+    width: auto;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+.newsph img{
+    display: inline;
+    height: 78px;
+    margin-left: 30px;
+    border: 0;
+}
+.newsph h2{
+    color: #01408A;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 50px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.newspp img{
+    height: 280px;
+    align-items: center;
+    margin: 50px 0px;
+    padding-left: 60px;
+    border: 0;
+}
+footer{
+    width: auto;
+    height: 370px;
+    background-color: #031b3f;
+}
+
+.footerinfo {
+    height: 327px;
+    background-color: #032348;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.fone, div.ftwo, div.fthree, div.ffour{
+    margin-right: 10px;
+}
+.footerinfo h3{
+    color: orangered;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.footerinfo p{
+    color: whitesmoke;
+    font-size: small;
+    line-height: 2;
+}
+
+.ftwo ul{
+    list-style-type: none;
+
+}
+.ftwo li{
+    margin-bottom: 15px;
+    
+}
+.ftwo a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 12.5px;
+}
+.fthree ul{
+    list-style-type: none;
+
+}
+.fthree li{
+    margin-bottom: 15px;
+    
+}
+.fthree a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: small;
+}
+.fthree {
+    margin-top: 33px;
+}
+
+.footerlast{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footerlast img {
+    width: 62px;
+    margin: 7px 55px;
+    
+}
+.footerlast p{
+    color: whitesmoke;
+    font-size: small;
+    text-align: right;
+    margin: 0px 50px;
+}
+.svgmess{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
